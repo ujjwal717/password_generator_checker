@@ -8,7 +8,7 @@ if password :
 
  print("Password is valid :) ")
 else:
-    print("Sorry, password is not valid :( ")
+    print("Sorry, password is not valid as it may be missing some security requirements. Try again !")
 
 
 
