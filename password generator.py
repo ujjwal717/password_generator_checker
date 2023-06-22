@@ -1,6 +1,5 @@
 import re
 
-
 pattern = re.compile(r"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$")
 string = input("Enter a valid password :- ")
 password = pattern.fullmatch(string)
